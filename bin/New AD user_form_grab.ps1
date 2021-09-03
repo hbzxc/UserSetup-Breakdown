@@ -14,14 +14,14 @@ $DefaultPass = ConvertTo-SecureString "Password" -AsPlainText -Force
 ###AD groups lists###
 $somecompanyADGroups = 'Hawaii Construction','SG somecompany PROJECTS','SG_DYNAMICS_SL','SG REFERENCES','SG_CP_Weekly_Logs_RO','SG NHCDC'
 
-$CPEADGroups = 'SG CPE CM','SG CPE','SG CPE GREENWAVE','SG CPE PROJECTS','SG CPE REFERENCES','SG CPE SCAN','SG CPE WORKSHARE','SG_DYNAMICS_SL'
+$otherCompanyADGroups = 'SG otherCompany CM','SG otherCompany','SG otherCompany GREENWAVE','SG otherCompany PROJECTS','SG otherCompany REFERENCES','SG otherCompany SCAN','SG otherCompany WORKSHARE','SG_DYNAMICS_SL'
 
 $AccountingADGroups = 'SG ACCOUNTING','SG somecompany PROJECTS','SG FINANCIAL REPORTING','SG NHCDC','SG_DYNAMICS_SL'
 
 ### Where to make user folders ###
 $UserFolderLocation = '\\SomeIp\qemydocuments','\\SomeIp\QueenEmmaScans'
 
-$CPEFolderLocation = '\\AnotherIP\cpe\Home','\\AnotherIP\cpe\Scans'
+$otherCompanyFolderLocation = '\\AnotherIP\otherCompany\Home','\\AnotherIP\otherCompany\Scans'
 
 ### Signature location for auto emails ###
 $Signature = get-content -path "$dir\User Settings\signature.txt" -raw
