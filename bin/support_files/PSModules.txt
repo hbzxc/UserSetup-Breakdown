@@ -1,0 +1,6 @@
+AzureAD
+MSOnline
+ExchangeOnlineManagement
+OneDrive
+SharePointPnPPowerShellOnline
+Pnp.PowerShell

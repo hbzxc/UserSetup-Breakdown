@@ -1,0 +1,3 @@
+This is the folder where all of the set up info will be stored i.e. passwords, username, license info
+
+Also contains powershell functions in the .psm1's
